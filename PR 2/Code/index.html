@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryption/Decryption</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text Encryption/Decryption</h1>
+
+        <div class="form-group">
+            <label for="textInput">Input Text:</label>
+            <textarea id="textInput" rows="5" placeholder="Enter text here..."></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="order">Select Encryption Order:</label>
+            <select id="order">
+                <option value="atbash-mono-polybius">Atbash > Monoalphabetic > Polybius</option>
+                <option value="mono-atbash-polybius">Monoalphabetic > Atbash > Polybius</option>
+            </select>
+        </div>
+
+        <div class="buttons">
+            <button id="encryptBtn">Encrypt</button>
+            <button id="decryptBtn" disabled>Decrypt</button>
+            <button id="clearBtn">Clear</button>
+            <button id="downloadBtn" style="display:none">Download File</button>
+        </div>
+
+        <div class="form-group">
+            <label for="resultOutput">Result:</label>
+            <textarea id="resultOutput" rows="5" placeholder="Result will appear here..." readonly></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="fileInput">Upload Encrypted File:</label>
+            <input type="file" id="fileInput">
+        </div>
+    </div>
+
+    <script src="Scripts.js"></script>
+</body>
+</html>
