@@ -5,8 +5,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1b1b2f;
+    color: #e4e4ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,60 +15,84 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: #27293d;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 550px;
     width: 100%;
     text-align: center;
 }
 
 h1 {
     margin-bottom: 20px;
-    color: #333;
+    color: #9d9bf5;
 }
 
 textarea {
     width: 100%;
     height: 100px;
     padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #ddd;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #454760;
+    background-color: #1f1f30;
+    color: #e4e4ff;
     resize: none;
+    font-size: 16px;
 }
 
-label, select, button {
+label {
+    color: #e4e4ff;
+}
+
+select, button, input[type="file"] {
     margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #2f2f42;
+    color: #e4e4ff;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-select {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-}
-
-.buttons {
-    margin-top: 15px;
+select:focus, button:focus, input[type="file"]:focus {
+    outline: none;
+    border: 2px solid #9d9bf5;
 }
 
 button {
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #5c67f2;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    margin: 10px;
+    background-color: #3b3b5c;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #4a56d3;
+    background-color: #4b4b6f;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    background-color: #2a2a3d;
+    cursor: not-allowed;
+}
+
+#downloadBtn {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 input[type="file"] {
     margin-top: 15px;
-    padding: 10px;
+    background-color: #3b3b5c;
+}
+
+#resultOutput {
+    background-color: #1f1f30;
 }
