@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined Hybrid Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Combined Hybrid Cipher</h2>
+
+        <form id="cipherForm">
+            <label for="message">Enter your message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea><br><br>
+
+            <label for="book_key">Enter key (for Book Cipher):</label><br>
+            <input type="text" id="book_key" name="book_key" placeholder="Book cipher key"><br><br>
+
+            <label for="adfgvx_key">Enter key for ADFGVX cipher:</label><br>
+            <input type="text" id="adfgvx_key" name="adfgvx_key" placeholder="ADFGVX cipher key"><br><br>
+
+            <input type="submit" value="Encrypt">
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

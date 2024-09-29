@@ -1,0 +1,60 @@
+/* General styling for Dark Owl theme */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1c1b29; /* Dark purple background */
+    color: #eaeaea; /* Light gray text */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #282741; /* Slightly lighter purple for the container */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+    color: #c3a6ff; /* Light lavender for headers */
+    text-align: center;
+}
+
+label {
+    color: #b0a5ff; /* Soft purple for labels */
+}
+
+textarea, input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #6a5acd; /* Medium purple border */
+    border-radius: 4px;
+    background-color: #1e1d32; /* Dark purple input background */
+    color: #ffffff; /* White text */
+}
+
+textarea::placeholder, input::placeholder {
+    color: #807b9c; /* Soft gray for placeholders */
+}
+
+input[type="submit"] {
+    background-color: #7a5eff; /* Bright purple for the button */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #9a7dff; /* Lighter purple on hover */
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #302a54; /* Darker purple for result box */
+    border-radius: 4px;
+    color: #b1e3ff; /* Light blue text */
+    font-weight: bold;
+    text-align: center;
+}
