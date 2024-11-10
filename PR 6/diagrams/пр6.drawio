@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="VKiL5rSBcVQsSw3uXKxx" name="Страница — 1">
+    <mxGraphModel dx="1680" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;Проникнення" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="425" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-4" target="yz6MX3lSjsHHVoUtse2c-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="670" />
+              <mxPoint x="340" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-4" target="yz6MX3lSjsHHVoUtse2c-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-4" value="Використання&amp;nbsp;&lt;br&gt;&amp;nbsp;EternalBlue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-6" target="yz6MX3lSjsHHVoUtse2c-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-6" value="Оновлення ПО :M.E.Doc:&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-8" target="yz6MX3lSjsHHVoUtse2c-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-8" value="Вірус копіює себе&amp;nbsp;&lt;br&gt;та помножується" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-9" target="yz6MX3lSjsHHVoUtse2c-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-9" value="Самопоширення через мережу на усі пристрої мережі" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-10" target="yz6MX3lSjsHHVoUtse2c-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-10" value="Шифрування данних через&amp;nbsp; AES-128 и RSA-2048" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-11" target="yz6MX3lSjsHHVoUtse2c-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-11" value="Відправка фішингового письма або уражений файл" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-13" target="yz6MX3lSjsHHVoUtse2c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-13" value="Використання&amp;nbsp;&lt;br&gt;PsExec" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-15" target="yz6MX3lSjsHHVoUtse2c-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-15" value="Шифрування таблиці MBR диску" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-16" target="yz6MX3lSjsHHVoUtse2c-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-16" value="Використання слабкостей&amp;nbsp;SMB (EternalBlue)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-18" target="yz6MX3lSjsHHVoUtse2c-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-18" value="Точка входу для вред. ПО" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-19" value="Використання&amp;nbsp;&lt;br&gt;уязвимостей в SMB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="680" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-20" value="Фінальна стадія атаки" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="945" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-21" value="Блокування доступу до дисків та початок шантажу" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-22" value="&lt;strong&gt;NotPetya&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-23" value="&lt;strong&gt;WannaCry&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-25" value="Проникнення через пошту&lt;br&gt;або уражений додаток" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="455" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-26" value="Початок проникнення" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="350" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-29" value="Початок поширення&amp;nbsp;&lt;br&gt;вірусу у мережі" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="585" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-31" value="Початок шифрування&amp;nbsp;&lt;br&gt;даних" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="710" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-32" value="Відображення екрану із шантажом" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-34" value="Фінальна стадія атаки" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="850" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-35" target="yz6MX3lSjsHHVoUtse2c-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-35" value="Фішинг або уражений файл" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-36" value="Відображення меню викупа через біткоін" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="960" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-37" value="&lt;strong&gt;BlackEnergy&lt;/strong&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-38" value="Колапс критичної інфаструктури" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-39" target="yz6MX3lSjsHHVoUtse2c-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-39" value="Використання користувачем ураженним ПО" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-40" target="yz6MX3lSjsHHVoUtse2c-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-40" value="Передача контролю над системами&amp;nbsp;&amp;nbsp;SCADA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-41" target="yz6MX3lSjsHHVoUtse2c-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-41" value="Встановлення трояну та використання&amp;nbsp;Rootkit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yz6MX3lSjsHHVoUtse2c-42" target="yz6MX3lSjsHHVoUtse2c-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-42" value="DDoS атака та вивод системи із строю" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-48" value="Початок проникнення" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="350" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-49" value="Інсталяція та&amp;nbsp;&lt;br&gt;схованка вірусу" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="580" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-50" value="Управління&amp;nbsp;&lt;br&gt;інфраструктурою" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="815" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yz6MX3lSjsHHVoUtse2c-51" value="Отримання контролю над&amp;nbsp;&lt;br&gt;управлінням інфраструк-&lt;br&gt;турою та початок атаки" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="820" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
