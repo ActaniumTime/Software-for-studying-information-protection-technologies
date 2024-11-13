@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feistel Encryption</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container mt-5">
+    <h1 class="text-center">Feistel Encryption</h1>
+    <form id="encryptionForm" onsubmit="return false;">
+        <div class="mb-3">
+            <label for="alphabet" class="form-label">Alphabet</label>
+            <input type="text" class="form-control" id="alphabet" required value="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz">
+        </div>
+        <div class="mb-3">
+            <label for="key" class="form-label">Key</label>
+            <input type="text" class="form-control" id="key" required>
+        </div>
+        <div class="mb-3">
+            <label for="text" class="form-label">Text</label>
+            <input type="text" class="form-control" id="text" required>
+        </div>
+        <button onclick="encryptText()" class="btn btn-primary">Encrypt</button>
+        <button onclick="decryptText()" class="btn btn-secondary">Decrypt</button>
+    </form>
+
+    <h3 class="mt-4">Results</h3>
+    <div id="result" class="alert alert-info" role="alert"></div>
+    <button onclick="downloadJSON()" class="btn btn-success mt-3">Download as JSON</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

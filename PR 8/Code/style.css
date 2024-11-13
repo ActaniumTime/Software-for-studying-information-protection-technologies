@@ -1,0 +1,77 @@
+
+body {
+    background-color: #111726;
+    color: #bbc5c9;
+}
+
+h1 {
+    color: #c08268;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    color: #bbc5c9;
+}
+
+.form-control {
+    background-color: #212941;
+    border: 1px solid #616266;
+    color: #bbc5c9;
+}
+
+.form-control:focus {
+    background-color: #212941;
+    color: #bbc5c9;
+    border-color: #c08268;
+    box-shadow: none;
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: #c08268;
+    border-color: #c08268;
+}
+
+.btn-primary:hover {
+    background-color: #b46e5b;
+    border-color: #b46e5b;
+}
+
+.btn-secondary {
+    background-color: #616266;
+    border-color: #616266;
+    color: #bbc5c9;
+}
+
+.btn-secondary:hover {
+    background-color: #525354;
+    border-color: #525354;
+}
+
+.btn-success {
+    background-color: #212941;
+    border-color: #212941;
+    color: #bbc5c9;
+}
+
+.btn-success:hover {
+    background-color: #2a3641;
+    border-color: #2a3641;
+}
+
+/* Результаты */
+.alert-info {
+    background-color: #212941;
+    color: #bbc5c9;
+    border: 1px solid #616266;
+}
+
+/* Стили для контейнера */
+.container {
+    max-width: 600px;
+    padding: 30px;
+    background-color: #111726;
+    border-radius: 10px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
