@@ -1,0 +1,114 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #232946, #4e598c); 
+    color: rgba(255, 255, 255, 0.9);
+    display: grid; 
+    place-items: center; 
+}
+
+.main-container {
+    display: grid;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 1200px;
+}
+
+.form-container, .results-container, .decryption-container {
+    flex: 1;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2 {
+    color: #fad0c4;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+input, textarea {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+button {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 154, 158, 0.2);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 154, 158, 0.4);
+}
+
+pre {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fad0c4;
+    word-wrap: break-word;
+    text-align: left;
+    overflow-x: auto; 
+}
+
+.results-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .results-wrapper {
+        flex-direction: row;
+    }
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgba(255, 255, 255, 0.432);
+}
