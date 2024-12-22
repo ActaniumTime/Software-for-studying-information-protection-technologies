@@ -3,36 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Криптоалгоритм</title>
+    <title>Crypto Algorithm</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center">Криптоалгоритм с симметричной и асимметричной логикой</h1>
+        <h1 class="text-center">Crypto Algorithm with Symmetric and Asymmetric Logic</h1>
         <div class="row">
             <div class="col-md-6">
-                <h3>Шифрование</h3>
-                <textarea id="inputText" class="form-control mb-3" rows="5" placeholder="Введите текст для шифрования"></textarea>
-                <button id="encryptBtn" class="btn btn-primary w-100">Зашифровать</button>
-                <textarea id="encryptedText" class="form-control mt-3" rows="5" readonly placeholder="Результат шифрования"></textarea>
+                <h3 class="text-center">Encryption</h3>
+                <textarea id="inputText" class="form-control mb-3" rows="5" placeholder="Enter text to encrypt"></textarea>
+                <button id="encryptBtn" class="btn btn-primary w-100">Encrypt</button>
+                <textarea id="encryptedText" class="form-control mt-3" rows="5" readonly placeholder="Encryption result"></textarea>
             </div>
             <div class="col-md-6">
-                <h3>Дешифрование</h3>
-                <textarea id="encryptedInput" class="form-control mb-3" rows="5" placeholder="Введите зашифрованный текст"></textarea>
-                <button id="decryptBtn" class="btn btn-success w-100">Расшифровать</button>
-                <textarea id="decryptedText" class="form-control mt-3" rows="5" readonly placeholder="Результат дешифрования"></textarea>
+                <h3 class="text-center">Decryption</h3>
+                <textarea id="encryptedInput" class="form-control mb-3" rows="5" placeholder="Enter encrypted text"></textarea>
+                <button id="decryptBtn" class="btn btn-success w-100">Decrypt</button>
+                <textarea id="decryptedText" class="form-control mt-3" rows="5" readonly placeholder="Decryption result"></textarea>
             </div>
         </div>
         <div class="row mt-4">
             <div class="col-md-6">
-                <button id="downloadJson" class="btn btn-secondary w-100">Скачать JSON</button>
+                <button id="downloadJson" class="btn btn-secondary w-100">Download JSON</button>
             </div>
             <div class="col-md-6">
                 <input type="file" id="uploadJson" class="form-control" accept=".json" />
             </div>
         </div>
-        
     </div>
     <script src="script.js"></script>
 </body>

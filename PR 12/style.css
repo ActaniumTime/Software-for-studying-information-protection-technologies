@@ -1,7 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+
 body {
-    background-color: #f8f9fa;
-}
-textarea {
-    resize: none;
+    background-color: #0d1117;
+    color: #c9d1d9; 
+    font-family: 'Press Start 2P', sans-serif; 
+    margin: 0;
+    padding: 0;
 }
 
+h1, h3 {
+    color: #58a6ff;
+    text-shadow: 2px 2px 5px rgba(88, 166, 255, 0.5);
+    text-align: center;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 2px 2px 5px rgba(88, 166, 255, 0.5);
+    }
+    to {
+        text-shadow: 2px 2px 20px rgba(88, 166, 255, 1);
+    }
+}
+
+.container {
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(145deg, #161b22, #1c2128);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+textarea {
+    background-color: #161b22;
+    color: #c9d1d9;
+    border: 2px solid #58a6ff;
+    border-radius: 8px;
+    resize: none;
+    padding: 10px;
+    font-family: 'Press Start 2P', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+textarea:focus {
+    background-color: #0d1117;
+    color: #58a6ff;
+    border-color: #1f6feb;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #8b949e;
+}
+
+button {
+    background: linear-gradient(145deg, #238636, #2ea043);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    animation: pulse 2s infinite;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+    50% {
+        box-shadow: 0 6px 15px rgba(88, 166, 255, 0.8);
+    }
+    100% {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+}
+
+#downloadJson {
+    background: linear-gradient(145deg, #bb86fc, #a371f7);
+    animation: pulse 2s infinite;
+}
+
+#downloadJson:hover {
+    background: linear-gradient(145deg, #a371f7, #bb86fc);
+}
+
+#uploadJson {
+    background-color: #161b22;
+    color: #c9d1d9;
+    border: 2px dashed #58a6ff;
+    border-radius: 8px;
+    padding: 10px;
+    transition: border-color 0.3s;
+}
+
+#uploadJson:hover {
+    border-color: #1f6feb;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #161b22;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #58a6ff;
+    border-radius: 8px;
+    border: 2px solid #0d1117;
+}
